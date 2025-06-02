@@ -73,42 +73,9 @@ const Home = () => {
       </div>
       <section className='absolute bottom-5 right-5 z-40 flex flex-col justify-end items-end gap-2'>
 
-<div className='rounded-md w-[20em] md:w-[25rem] lg:w-[25rem] h-[70vh] bg-slate-900'>
- <div className='flex justify-center items-center border-b px-6 h-[12%]'> 
-  <p>Chat Bot</p>
-  <Button variant='ghost' size='icon'>
-    <CrossIcon/>
-  </Button></div>
-  <div className='h-[76%] flex flex-col overflow-y-auto gap-5 px-5 py-2 scroll-container'>
-    <div className='self-start pb-5 w-auto'>
-      <div className='justify-end self-end px-5 py-2 rounded-md bg-slate-800 w-auto'>
-  <p>hi,Adarsh Dubey</p>
-  <p>you can ask any question related to crypto</p>
-  <p>like price,marketcap extra</p>
-</div></div>
- <div className={ `${true?"self-start":"self-end"}'pb-5 w-auto'`}>
-      <div className='justify-end self-end px-5 py-2 rounded-md bg-slate-800 w-auto'>
-  
-  <p>prompt who are you</p>
-</div>
-  <div className='justify-end self-end px-5 py-2 rounded-md bg-slate-800 w-auto'>
-  
-  <p>ans hi,I am adarsh dubey</p>
-</div>
-</div>
- 
-    
-  </div>
-</div>
 
-        <div className='relative w-[10rem] cursor-pointer group'>
-            <Button className="w-full h-[3rem] gap-2 items-center">
-                <MessageCircle size={60} className='fill-[#1e293b] -rotate-90 stroke-none group-hover:fill-[#1a1a1a] '/>
-                <span className='text-2xl'>ChatBot</span>
-            </Button>
 
-        </div>
-
+     
       </section>
     </div>
   
