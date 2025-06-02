@@ -12,11 +12,13 @@ import Search from "./page/Search/Search";
 import WithdrawalAdmin from "./page/Admin/WithdrawalAdmin";
 import NotFound from "./page/NotFound/NotFound";
 import StockDetails from "./page/StockDetails/StockDetails"; // Don't forget this!
+import Auth from "./page/Auth/Auth";
 
 function App() {
   return (
     <>
-      <Navbar />
+    <Auth/>
+   {false && <div>    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
@@ -30,7 +32,8 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/withdrawaladmin" element={<WithdrawalAdmin />} />
         <Route path="*" element={<NotFound />} />
-      </Routes>
+      </Routes></div>}
+  
     </>
   );
 }
